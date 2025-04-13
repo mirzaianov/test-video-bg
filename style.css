@@ -1,4 +1,4 @@
-@import 'style/reset-mirzaianov.css';
+@import 'style/reset.css';
 @import 'style/vars.css';
 @import 'style/fonts.css';
 
@@ -39,7 +39,6 @@ video {
 .text-wrapper {
   padding: 2vw 1vw;
   z-index: 100;
-
   line-height: 1.2;
 }
 
