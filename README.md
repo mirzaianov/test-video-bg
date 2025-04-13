@@ -4,11 +4,11 @@
 
 ## Description
 
-### Short description
+### A fluid layout with a video background
 
 ### Features
 
-- The fully responsive (fluid) layout: all elements scale smoothly when resizing the browser window, as shown in the video.
+- The fully responsive (fluid) layout: all elements scale smoothly when resizing the browser window.
 - No use of libraries, HTML/CSS frameworks, or grids like Bootstrap, etc.
 - The video plays as a single continuous sequence, not in random fragments.
 - All resources in the layout are connected locally.
