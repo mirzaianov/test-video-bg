@@ -10,4 +10,14 @@
   --xl: 40px;
   --2xl: 56px;
   --3xl: 80px;
+
+  font-size: 11.3vw;
+
+  --mask-height: 1.2ex;
+
+  --mask1-width: 36.8vw;
+  --mask2-width: 50.5vw;
+  --mask3-width: 20.5vw;
+  --mask4-width: 15vw;
+  --mask5-width: 28.5vw;
 }

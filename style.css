@@ -4,9 +4,76 @@
 
 body {
   font-family: 'Bricolage Grotesque Bold', sans-serif;
-  font-size: var(--3xl);
-  line-height: 1.2;
   color: var(--neutral-00);
   background-color: var(--neutral-90);
-  padding: var(--l) var(--s);
+  min-width: 20rem;
+  overflow: hidden;
+}
+
+.video-wrapper,
+.text-wrapper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text-wrapper {
+  padding: 2vw 1vw;
+  z-index: 100;
+
+  line-height: 1.2;
+}
+
+.text-wrapper span {
+  display: inline-block;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mask {
+  height: var(--mask-height);
+}
+
+.mask1 {
+  width: var(--mask1-width);
+}
+
+.mask2 {
+  width: var(--mask2-width);
+}
+
+.mask3 {
+  width: var(--mask3-width);
+}
+
+.mask4 {
+  width: var(--mask4-width);
+}
+
+.mask5 {
+  width: var(--mask5-width);
+}
+
+.video-mask {
+  mask-image: linear-gradient(var(--neutral-90), var(--neutral-90)),
+    linear-gradient(var(--neutral-90), var(--neutral-90)),
+    linear-gradient(var(--neutral-90), var(--neutral-90)),
+    linear-gradient(var(--neutral-90), var(--neutral-90)),
+    linear-gradient(var(--neutral-90), var(--neutral-90));
+  mask-size: var(--mask1-width) var(--mask-height),
+    var(--mask2-width) var(--mask-height), var(--mask3-width) var(--mask-height),
+    var(--mask4-width) var(--mask-height), var(--mask5-width) var(--mask-height);
+  mask-position: 61.75vw 6vw, 15vw 19.5vw, 1.4vw 33vw, 24vw 60vw, 70vw 73.7vw;
+  mask-repeat: no-repeat;
+}
+
+.text-desktop {
+  display: none;
 }

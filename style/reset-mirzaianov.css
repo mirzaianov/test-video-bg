@@ -18,7 +18,6 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased; /* Enable smooth font edges in WebKit browsers */
-  min-height: 100%; /* Set minimum height to match parent */
   line-height: 1.5; /* Set comfortable reading line spacing */
 }
 
@@ -50,44 +49,6 @@ button {
 
 textarea:not([rows]) {
   min-height: 10em; /* Make sure textareas without a rows attribute are not tiny */
-}
-
-/* -TYPOGRAPHY----------------------------------------------------------------------------------- */
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word; /* Break long words to prevent overflow */
-}
-
-p,
-li,
-figcaption {
-  max-width: 65ch; /* Set maximum width */
-  text-wrap: pretty; /* Prettify text wrapping */
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-wrap: balance; /* Balance text wrapping */
-}
-
-h1,
-h2,
-h3,
-h4,
-button,
-input,
-label {
-  line-height: 1.1; /* Set shorter line heights */
 }
 
 /* -CONTAINER-QUERIES---------------------------------------------------------------------------- */
