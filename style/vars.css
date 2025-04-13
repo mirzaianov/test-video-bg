@@ -21,3 +21,16 @@
   --mask4-width: 15vw;
   --mask5-width: 28.5vw;
 }
+
+@media screen and (min-width: 50rem) {
+  :root {
+    font-size: 6.8vw;
+
+    --mask-height: 1.4ex;
+
+    --mask1-width: 33vw;
+    --mask2-width: 16vw;
+    --mask3-width: 24.8vw;
+    --mask4-width: 56.2vw;
+  }
+}

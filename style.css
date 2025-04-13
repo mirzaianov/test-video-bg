@@ -77,3 +77,25 @@ video {
 .text-desktop {
   display: none;
 }
+
+@media screen and (min-width: 50rem) {
+  .video-mask {
+    mask-image: linear-gradient(var(--neutral-90), var(--neutral-90)),
+      linear-gradient(var(--neutral-90), var(--neutral-90)),
+      linear-gradient(var(--neutral-90), var(--neutral-90)),
+      linear-gradient(var(--neutral-90), var(--neutral-90));
+    mask-size: var(--mask1-width) var(--mask-height),
+      var(--mask2-width) var(--mask-height),
+      var(--mask3-width) var(--mask-height),
+      var(--mask4-width) var(--mask-height);
+    mask-position: 37.7vw 4vw, 27.7vw 12.1vw, 38.2vw 20.3vw, 42.5vw 28.5vw;
+  }
+
+  .text-desktop {
+    display: block;
+  }
+
+  .text-mobile {
+    display: none;
+  }
+}
