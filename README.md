@@ -1,6 +1,6 @@
-![MasterHead](./head.png)
+![MasterHead](./head.gif)
 
-# NAME OF THE PROJECT
+# **VIDEO BG** Test Project
 
 ## Description
 
