@@ -1,17 +1,5 @@
 @font-face {
   font-display: swap;
-  font-family: 'Bricolage Grotesque';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Bricolage Grotesque Regular'), local('BricolageGrotesque Regular'),
-    local('Bricolage Grotesque'), local('Bricolage-Grotesque'),
-    local('Bricolage-Grotesque-Regular'), local('BricolageGrotesque-Regular'),
-    local('BricolageGrotesque');
-  src: url('../assets/fonts/BricolageGrotesque-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-display: swap;
   font-family: 'Bricolage Grotesque Bold';
   font-style: normal;
   font-weight: 400;
