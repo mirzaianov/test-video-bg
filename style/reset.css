@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* Include paddings/border in the element size */
+}
+
+* {
+  margin: 0; /* Remove default margins */
+}
+
+html {
+  -moz-text-size-adjust: none; /* Prevent font size inflation in Firefox */
+  -webkit-text-size-adjust: none; /* Prevent font size inflation in Safari */
+  text-size-adjust: none; /* Prevent font size inflation in other browsers */
+  height: 100%; /* Set full height of the parent container */
+  scroll-behavior: smooth; /* Enable smooth scrolling animation */
+}
+
+body {
+  -webkit-font-smoothing: antialiased; /* Enable smooth font edges in WebKit browsers */
+  line-height: 1.5; /* Set comfortable reading line spacing */
+}
+
+/* -IMAGES--------------------------------------------------------------------------------------- */
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block; /* Stack elements vertically */
+  max-width: 100%; /* Prevent overflow and enable responsive scaling */
+}
