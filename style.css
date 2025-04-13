@@ -2,6 +2,18 @@
 @import 'style/vars.css';
 @import 'style/fonts.css';
 
+:root {
+  font-size: 11.3vw;
+
+  --mask-height: 1.2ex;
+
+  --mask1-width: 36.8vw;
+  --mask2-width: 50.5vw;
+  --mask3-width: 20.5vw;
+  --mask4-width: 15vw;
+  --mask5-width: 28.5vw;
+}
+
 body {
   font-family: 'Bricolage Grotesque Bold', sans-serif;
   color: var(--neutral-00);
@@ -79,6 +91,17 @@ video {
 }
 
 @media screen and (min-width: 50rem) {
+  :root {
+    font-size: 6.8vw;
+
+    --mask-height: 1.4ex;
+
+    --mask1-width: 33vw;
+    --mask2-width: 16vw;
+    --mask3-width: 24.8vw;
+    --mask4-width: 56.2vw;
+  }
+
   .video-mask {
     mask-image: linear-gradient(var(--neutral-90), var(--neutral-90)),
       linear-gradient(var(--neutral-90), var(--neutral-90)),
