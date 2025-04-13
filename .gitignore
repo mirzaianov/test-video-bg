@@ -47,4 +47,4 @@ lerna-debug.log*
 
 # Custom
 package-lock.json
-.pretteirrc
+.prettierrc
