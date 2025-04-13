@@ -1,3 +1,12 @@
 @import 'style/reset-mirzaianov.css';
 @import 'style/vars.css';
 @import 'style/fonts.css';
+
+body {
+  font-family: 'Bricolage Grotesque Bold', sans-serif;
+  font-size: var(--3xl);
+  line-height: 1.2;
+  color: var(--neutral-00);
+  background-color: var(--neutral-90);
+  padding: var(--l) var(--s);
+}
